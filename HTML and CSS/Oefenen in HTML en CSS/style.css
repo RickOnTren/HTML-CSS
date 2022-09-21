@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -5,17 +11,64 @@ body {
 
 h1,
 h2 {
-  color: orange;
+  color: #ec9509d1;
 }
 
 h1 {
-  font-size: 4 0px;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 h2 {
   font-size: 20px;
+  margin-bottom: 15px;
 }
 
-p {
+.First-text {
   text-align: justify;
+  margin-bottom: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 0 auto;
+}
+
+.blog-post {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+  position: relative;
+}
+
+.other-post {
+  width: 25%;
+  float: left;
+}
+
+.piccolo-orange {
+  border-top: 1px solid orange;
+  padding-top: 20px;
+}
+
+.other {
+  margin-bottom: 40px;
+}
+
+.blog-post img {
+  height: 200px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.date {
+  position: absolute;
+  top: 10px;
+  right: 30px;
 }
