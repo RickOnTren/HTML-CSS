@@ -1,0 +1,14 @@
+Dit zijn de 3 front-end taal:
+
+HTML is verandwoordelijk voor voor de inhoud van de pagina 
+	Zoals tekst en de afbeeldingen,.
+	Alles wat je op de webpaginia ziet wotd altijd in HTML geschreven.
+CSS is verandwoordelijk voor de opmaak van de webpagina dus het stijlen
+	Ook voor de opmaak van de elementen op de webpagina.
+JavaScript is officieel het programmeertaal van front-end
+	Het is in staat en interactieve effecten en dynamische effecten
+	te voegen een de webpagina's.
+
+HTML = Hyper Text Markup Language
+HTML documents worden gecodeerd met HTML Tags
+je gebruikt tags HTML om het begin en einde element.
