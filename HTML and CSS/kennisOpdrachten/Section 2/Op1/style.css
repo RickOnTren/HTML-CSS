@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 0 auto;
+  font-size: 15px;
+}
+
+.blog-post {
+  width: 75%;
+  padding-right: 30px;
+  position: relative;
+}
+
+.cbum-img {
+  border-radius: 50px;
+  height: 300px;
+  width: auto;
+}
+
+.jay-img {
+  border-radius: 50px;
+  height: 300px;
+  width: auto;
+}
+
+.links {
+  font-size: 20px;
+}

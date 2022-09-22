@@ -1,0 +1,139 @@
+/* -------------------*/
+/* basic setup*/
+/*-------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  color: lightgray;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+/* -------------------*/
+/* reusable components*/
+/*-------------------*/
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* ------Headings--------*/
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 200%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+/* -------Buttons--------*/
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(99, 61, 135);
+}
+
+.btn-steriods:link,
+.btn-steriods:visited {
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.btn-show:link,
+.btn-show:visited {
+  border: 1px solid blueviolet;
+  color: blueviolet;
+}
+
+.btn-steriods:hover,
+.btn-steriods:active {
+  border: 1px solid rgb(99, 61, 135);
+}
+
+.btn-show:hover,
+.btn-show:active {
+  border: 1px solid rgb(99, 61, 135);
+  color: #fff;
+}
+
+/* -------------------*/
+/* Header*/
+/*-------------------*/
+
+header {
+  background-image: linear-gradient(
+      rgba(243, 4, 127, 0.5),
+      rgba(243, 4, 127, 0.5)
+    ),
+    url(img/ronnie.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.ronnie-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  border-radius: 150px;
+  margin-top: 15px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 5px 0 5px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid blueviolet;
+}
