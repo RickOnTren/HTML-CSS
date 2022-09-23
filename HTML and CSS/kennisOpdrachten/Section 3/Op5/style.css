@@ -51,7 +51,7 @@ body {
   background-color: orange;
 }
 
-/* de groepen */
+/* de table */
 
 th,
 td {
@@ -62,4 +62,14 @@ table,
 th,
 td {
   border-collapse: collapse;
+}
+
+/* images */
+
+img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 350px;
+  right: 700px;
 }
