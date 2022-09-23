@@ -1,0 +1,97 @@
+* {
+  font-family: "Courier New";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+.blog-post h1,
+h2,
+p {
+  color: green;
+}
+
+.blog-post h3 {
+  color: red;
+}
+
+.blog-post img {
+  box-sizing: content-box;
+  border: 10px solid black;
+  height: 200px;
+  width: 200px;
+  padding: 120px;
+}
+
+.tekst-1 {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.h2-absoluut {
+  position: absolute;
+  top: 330px;
+  right: 260px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 0 auto;
+}
+
+.blog-post {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+  position: relative;
+}
+
+.other-post {
+  width: 25%;
+  float: left;
+}
+
+.other {
+  color: green;
+}
+
+.other1 {
+  color: red;
+}
+
+.footer {
+  border-top: 7px solid grey;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.footer h1 {
+  color: green;
+  font-size: 17px;
+  float: left;
+}
+
+.footer h2 {
+  color: green;
+  font-size: 17px;
+  float: right;
+}
+
+.footer img {
+  border-radius: 60%;
+  height: 300px;
+  width: auto;
+  position: absolute;
+  top: 810px;
+  margin-left: 300px;
+}

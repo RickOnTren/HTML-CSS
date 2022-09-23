@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Courier New";
+}
+
+.container {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+/* de kleuren */
+.one {
+  background-color: yellow;
+}
+
+.two {
+  background-color: red;
+}
+
+.three {
+  background-color: darkblue;
+}
+
+.four {
+  background-color: green;
+}
+
+.five {
+  background-color: white;
+}
+
+.six {
+  background-color: purple;
+}
+
+.seven {
+  background-color: gray;
+}
+
+.eight {
+  background-color: pink;
+}
+
+.nine {
+  background-color: orange;
+}
+
+/* de groepen */
+
+th,
+td {
+  padding: 80px 230px 150px 230px;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
