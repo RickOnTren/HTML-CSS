@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(img/tiger.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.main-div {
+  text-transform: uppercase;
+  margin: 0%;
+  margin-top: 30%;
+}
+
+.header-h1 {
+  color: blue;
+  text-transform: lowercase;
+}
+
+.buttons {
+  float: left;
+  list-style: none;
+  margin-top: 30%;
+  margin-right: 50px;
+}
+
+.buttons li {
+  display: block;
+  margin-right: 100%;
+}
+
+.buttons li a {
+  padding: 5px 0 5px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: green;
+}
+
+.buttons-1 {
+  float: left;
+  margin-top: 30%;
+  margin-right: 50px;
+}
+
+.buttons-1 li {
+  display: block;
+  margin-right: 100%;
+}
+
+.buttons-1 li a {
+  padding: 5px 0 5px 0;
+  text-transform: uppercase;
+  color: purple;
+}
+
+.buttons-2 {
+  float: left;
+  margin-top: 30%;
+  margin-right: 50px;
+}
+
+.buttons-2:hover {
+  background-color: olive;
+}
+
+.buttons-2 li {
+  display: block;
+  margin-right: 100%;
+}
+
+.buttons-2 li a {
+  padding: 5px 0 5px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: orange;
+}

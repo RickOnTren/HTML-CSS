@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  max-width: auto;
+}
+
+/* Nav-Bor */
+
+.main-nav {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 10px 40px;
+  margin: 5px;
+  text-align: center;
+}
+
+.main-nav li a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.home,
+.timeline {
+  background-color: green;
+}
+
+.trainingen,
+.herders {
+  background-color: yellow;
+}
+
+.consultancy,
+.overons {
+  background-color: red;
+}
+
+.producten,
+.contact {
+  background-color: blue;
+}
