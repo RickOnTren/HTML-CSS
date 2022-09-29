@@ -4,13 +4,28 @@
   box-sizing: border-box;
 }
 
+.tiger {
+  list-style: none;
+  width: 100%;
+}
+
+.tiger li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
 .tiger-back {
-  padding: 20em;
-  background-image: url(img/tiger.jpg);
-  filter: contrast(180%);
-  background-repeat: no-repeat;
-  background-position: 320px 215px;
-  background-size: 400px 200px;
+  background-color: orange;
+  overflow: hidden;
+  margin: 130px 330px 0;
+  width: 100%;
+}
+
+.tiger-back img {
+  width: 100%;
+  opacity: 0.7;
+  height: auto;
 }
 
 .tiger-text-box {
@@ -28,31 +43,15 @@
   line-height: 25px;
 }
 
-.btn:link,
-.btn:visited {
+.btn {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn:hover,
-.btn:active {
-  background-color: rgba(240, 162, 19, 0.653);
-}
-
-.btn:link,
-.btn:visited {
   background-color: rgba(240, 162, 19, 0.653);
   border: 1px solid rgba(240, 162, 19, 0.653);
-  color: #fff;
   margin-right: 30px;
   margin-top: 10px;
-}
-
-.btn:hover,
-.btn:active {
-  border: 1px solid rgba(240, 162, 19, 0.653);
+  color: #fff;
 }

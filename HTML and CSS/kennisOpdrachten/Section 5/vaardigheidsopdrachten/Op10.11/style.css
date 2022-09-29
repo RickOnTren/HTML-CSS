@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  padding: 0;
+}
+
+.tiger {
+  list-style: none;
+  width: 100%;
+}
+
+.tiger li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.tiger-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.tiger-photo img {
+  width: 100%;
+  height: 300px;
+  transform: scale(1.15);
+}
