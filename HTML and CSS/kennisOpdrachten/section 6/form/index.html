@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section-photo"></section>
+    <section class="section-Form">
+      <div class="h2-text"><h2>Contactformulier</h2></div>
+      <div class="row">
+        <form method="post" action="#" class="form">
+          <div class="column left">
+            <label for="">Name </label>
+          </div>
+          <div class="column right">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Je Naam"
+              required
+            />
+          </div>
+          <div class="column left">
+            <label for="">Email</label>
+          </div>
+          <div class="column right">
+            <input
+              type="email"
+              name="email"
+              id="emial"
+              placeholder="je Email"
+              required
+            />
+          </div>
+          <div class="column left">
+            <label for="">Wachtwoord</label>
+          </div>
+          <div class="column right">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="je wachtwoord"
+              required
+            />
+          </div>
+          <div class="column left">
+            <label for="">Geslacht</label>
+          </div>
+          <div class="column right">
+            <select name="Geslacht" id="geslacht">
+              <option value="man">Man</option>
+              <option value="vrouw">Vrouw</option>
+            </select>
+          </div>
+          <div class="column left">
+            <label for="">Media</label>
+          </div>
+          <div class="column right">
+            <input
+              type="checkbox"
+              name="nieuwsbrief"
+              placeholder="nieuwsbrief"
+            />nieuwsbrief <br />
+            <input
+              type="checkbox"
+              name="mailing"
+              placeholder="mailing"
+            />Mailing <br />
+            <input type="checkbox" name="post" placeholder="post" />Post
+          </div>
+          <div class="column left">
+            <input type="submit" value="Stuur me op!" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
