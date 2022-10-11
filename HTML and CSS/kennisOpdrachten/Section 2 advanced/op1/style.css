@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.847),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(img/tiger.jpg);
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+}
