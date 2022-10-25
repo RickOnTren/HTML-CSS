@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  background-color: orange;
+  padding: 20px;
+  margin: 20px;
+}

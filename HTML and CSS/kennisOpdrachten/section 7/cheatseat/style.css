@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: bisque;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.container {
+  display: flex;
+  background-color: pink;
+}
+
+.item {
+  flex: 50%;
+  padding: 10px;
+}
+
+.i1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+strong {
+  background-color: purple;
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 20%;
+}

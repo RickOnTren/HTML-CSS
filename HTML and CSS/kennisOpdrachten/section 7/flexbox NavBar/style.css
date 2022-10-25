@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aquamarine;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+}
+
+.item {
+  border: 2px solid black;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.home {
+  flex-grow: 0.5;
+}
+
+.profile {
+  flex-grow: 0.2;
+}
+
+.search {
+  flex-grow: 0.2;
+}
