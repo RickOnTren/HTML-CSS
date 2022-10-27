@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+  border: 3px solid black;
+}
+
+.flex__child {
+  height: 200px;
+  text-align: center;
+  border: 2px solid green;
+}
+
+.een {
+  flex-basis: 10rem;
+  align-self: flex-end;
+  height: 100px;
+}
+
+.twee {
+  flex-basis: 30rem;
+}
+
+.drie {
+  flex-basis: 30rem;
+  align-self: flex-start;
+  height: 100px;
+}
+
+.vier {
+  flex-basis: 10rem;
+  align-self: center;
+  height: 100px;
+}

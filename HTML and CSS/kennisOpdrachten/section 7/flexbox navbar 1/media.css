@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 800px) {
+  .container > div {
+    flex: 50%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .container > div {
+    flex: 100%;
+  }
+}

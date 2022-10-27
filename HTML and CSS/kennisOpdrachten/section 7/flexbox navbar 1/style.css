@@ -14,25 +14,18 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-  justify-content: flex-start;
+.container > div {
+  flex: 10%;
 }
 
 .item {
-  border: 2px solid black;
-  margin-right: 10px;
-  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .home {
-  flex-grow: 0.5;
-}
-
-.profile {
-  flex-grow: 0.2;
-}
-
-.search {
-  flex-grow: 0.2;
+  flex-grow: 1;
 }
