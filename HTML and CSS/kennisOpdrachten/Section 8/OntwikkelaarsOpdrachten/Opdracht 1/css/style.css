@@ -1,0 +1,16 @@
+.container {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: minmax(min-content, 25rem);
+  grid-template-rows: minmax(min-content, 25rem);
+  grid-gap: 20px;
+}
+
+.item {
+  background-color: orange;
+}
+
+/* je zit dat de eerste item heel 
+groot wordt de andere heel kan worden en 
+wel allemaal de zelfde width hebben 
+maar net de zelfde height */

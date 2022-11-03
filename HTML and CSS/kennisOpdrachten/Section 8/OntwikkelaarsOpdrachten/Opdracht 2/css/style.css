@@ -1,0 +1,22 @@
+* {
+  background-color: blanchedalmond;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 99vw;
+  background-color: pink;
+  display: grid;
+  grid-template-columns: 50% max-content;
+  grid-template-rows: max-content;
+  grid-gap: 5px;
+}
+
+.item {
+  text-align: center;
+  background-color: pink;
+}

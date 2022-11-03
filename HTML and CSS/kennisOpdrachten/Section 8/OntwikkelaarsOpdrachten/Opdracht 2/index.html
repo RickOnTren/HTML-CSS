@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <header>
+    <h1>Grid</h1>
+  </header>
+  <body>
+    <div class="container">
+      <div class="item item--1">Container Properties</div>
+      <div class="item item--2">Item Properties</div>
+      <div class="item item--3">
+        <div style="background-color: purple">//Creates a grid</div>
+        display: grid || inline-grid;
+      </div>
+      <div class="item item--4">
+        <div style="background-color: purple">
+          //Determines the column start of an item within the grid
+        </div>
+        grid-column-start: line || span (number || name) || auto
+      </div>
+      <div class="item item--5">
+        <div style="background-color: purple">//Creates grid columns</div>
+        grid-template-columns: lenght || percentage || fr || line-name
+      </div>
+      <div class="item item--6">
+        <div style="background-color: purple">
+          //Determines the row start of an item within the grid
+        </div>
+        grid-row-start: line || span (number || name) || auto
+      </div>
+      <div class="item item--7">
+        <div style="background-color: purple">//Creates grid row</div>
+        grid-template-rows: lenght || percentage || fr || line-name
+      </div>
+      <div class="item item--8">
+        <div style="background-color: purple">
+          //Determines the column start of an item within the grid
+        </div>
+        grid-column-end: line || span (number || name) || auto
+      </div>
+      <div class="item item--9">
+        <div style="background-color: purple">
+          //Creates a grid with specified areas
+        </div>
+        grid-template-areas: grid-area-name || none || .
+      </div>
+      <div class="item item--10">
+        <div style="background-color: purple">
+          //Determines the row end of an item within the grid
+        </div>
+        grid-row-end: line || span (number || name) || auto
+      </div>
+      <div class="item item--11">
+        <div style="background-color: purple">
+          //Creates rows, columns and areas in a single declaration
+        </div>
+        grid-template: none ||grid-template-rows / grid-template-columns
+      </div>
+      <div class="item item--12">
+        <div style="background-color: purple">
+          //shorthand for column start and end
+        </div>
+        grid-column: grid-column-start grid-column-end
+      </div>
+      <div class="item item--13">
+        <div style="background-color: purple">
+          //Creates spaces between grid-items on the row axis
+        </div>
+        row-gap (grid-row-gap): length
+      </div>
+      <div class="item item--14">
+        <div style="background-color: purple">
+          //shorthand for row start and end
+        </div>
+        grid-row: grid-row-start grid-row-end
+      </div>
+      <div class="item item--15">
+        <div style="background-color: purple">
+          //Creates spaces between grid-items on the column axis
+        </div>
+        column-gap (grid-column-gap): length
+      </div>
+      <div class="item item--16">
+        <div style="background-color: purple">
+          //give a grid area name to a grid item
+        </div>
+        grid-area: name || row-start / column-start / row-end / column-end
+      </div>
+      <div class="item item--17">
+        <div style="background-color: purple">
+          //Creates spaces between grid-items on the row and column axis
+        </div>
+        gap (grid-gap) : grid-row-gap grid-column-gap
+      </div>
+      <div class="item item--18">
+        <div style="background-color: purple">
+          //aligns a grid-item inside a cell along the row / inline axis
+        </div>
+        justify-self: start || end || center || stretch
+      </div>
+      <div class="item item--19">
+        <div style="background-color: purple">
+          //align grid items along the inline / row axis
+        </div>
+        justify-items: start || end || center || stretch
+      </div>
+      <div class="item item--20">
+        <div style="background-color: purple">
+          //aligns a grid-item inside a cell along the column / block axis
+        </div>
+        align-items: start || end || center || stretch
+      </div>
+      <div class="item item--21">
+        <div style="background-color: purple">
+          ////align grid items along the inline / column axis
+        </div>
+        align-items: start || end || center || stretch
+      </div>
+      <div class="item item--22">
+        <div style="background-color: purple">
+          //aligns a grid-item inside a cell along the row / inline and column /
+          black axis
+        </div>
+        place-self: align-self justify-self
+      </div>
+      <div class="item item--23">
+        <div style="background-color: purple">
+          //Align grid items along the inline and block (shorthand)
+        </div>
+        place-items: align-items || justify-items
+      </div>
+      <div class="item item--24">
+        <div></div>
+      </div>
+      <div class="item item--25">
+        <div style="background-color: purple">
+          //Align the whole grid (container) along the inline / row axis
+        </div>
+        justify-content: start || end || center || stretch || space-around ||
+        space-between || space-evenly
+      </div>
+      <div class="item item--26"></div>
+      <div class="item item--27">
+        <div style="background-color: purple">
+          //Align the whole grid (container) along the block / block axis
+        </div>
+        align-content: start || end || center || stretch || space-around ||
+        space-between || space-evenly
+      </div>
+      <div class="item item--28"></div>
+      <div class="item item--29">
+        <div style="background-color: purple">
+          //align the whole grid (container) along the inline and block axis
+          (shorthand)
+        </div>
+        place-content: align-content || justify-content
+      </div>
+      <div class="item item--30"></div>
+      <div class="item item--31">
+        <div style="background-color: purple">
+          //specifies the size of any auto-generated grid row
+        </div>
+        grid-auto-row: size (lenght || percentage || fr )
+      </div>
+      <div class="item item--32"></div>
+      <div class="item item--33">
+        <div style="background-color: purple">
+          //specifies the size of any auto-generated grid column
+        </div>
+        grid-auto-column: size (lenght || percentage || fr )
+      </div>
+      <div class="item item--34"></div>
+      <div class="item item--35">
+        <div style="background-color: purple">
+          //sets the algorithm that places the grid-items
+        </div>
+        grid-auto-flow: row || column || dense
+      </div>
+      <div class="item item--36"></div>
+      <div class="item item--37">
+        <div style="background-color: purple">
+          //shorthand for almost every property
+        </div>
+        grid: grid-template-rows grid-template-columns grid-template-areas
+        grid-auto-rows grid-auto-columns grid-auto-flow
+      </div>
+      <div class="item item--38"></div>
+    </div>
+  </body>
+</html>
