@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .btn {
+    margin-left: 25%;
+  }
+
+  .Text-box {
+    font-size: 30px;
+  }
+
+  .section-Info {
+    min-height: 100vh;
+    grid-template-rows: repeat(auto-fill, minmax(0px, 100px));
+  }
+
+  .Info-H1 {
+    font-size: 40px;
+  }
+
+  .col--2 button {
+    height: 45%;
+    font-size: 50%;
+  }
+}
