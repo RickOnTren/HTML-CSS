@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.oef {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.raden {
+  border: 1px solid black;
+  width: 20%;
+  margin: 20px;
+}
+
+.btn {
+  border: 1px solid green;
+  width: 20%;
+}
