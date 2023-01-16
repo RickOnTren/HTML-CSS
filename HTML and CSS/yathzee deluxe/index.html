@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yahtzee</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="dice-container">
+      <div class="die" id="die1">0</div>
+      <div class="die" id="die2">0</div>
+      <div class="die" id="die3">0</div>
+      <div class="die" id="die4">0</div>
+      <div class="die" id="die5">0</div>
+    </div>
+    <button id="roll-button">Roll</button>
+    <div id="scoreboard-container">
+      <table>
+        <tr>
+          <th>Combination</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td>Ones:</td>
+          <td id="score-ones"></td>
+        </tr>
+        <tr>
+          <td>Twos:</td>
+          <td id="score-twos"></td>
+        </tr>
+        <tr>
+          <td>Threes:</td>
+          <td id="score-threes"></td>
+        </tr>
+
+        <tr>
+          <td>Fours:</td>
+          <td id="score-fours"></td>
+        </tr>
+        <tr>
+          <td>Fives:</td>
+          <td id="score-fives"></td>
+        </tr>
+        <tr>
+          <td>Sixes:</td>
+          <td id="score-sixes"></td>
+        </tr>
+        <tr>
+          <td>Three of a Kind:</td>
+          <td id="score-three-of-a-kind"></td>
+        </tr>
+        <tr>
+          <td>Four of a kind:</td>
+          <td id="score-four-of-a-kind"></td>
+        </tr>
+        <tr>
+          <td>Small straight:</td>
+          <td id="score-small-straight"></td>
+        </tr>
+        <tr>
+          <td>big straight:</td>
+          <td id="score-big-straight"></td>
+        </tr>
+        <tr>
+          <td>Full House:</td>
+          <td id="score-full-house"></td>
+        </tr>
+        <tr>
+          <td>Yahtzee:</td>
+          <td id="score-yahtzee"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <footer><script src="java.js"></script></footer>
+</html>

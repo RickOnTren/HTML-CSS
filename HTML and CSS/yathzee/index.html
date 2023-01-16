@@ -9,21 +9,46 @@
   </head>
   <body>
     <div class="container">
-      <div id="dice1" class="dice">0</div>
-      <div id="dice2" class="dice">0</div>
-      <div id="dice3" class="dice">0</div>
-      <div id="dice4" class="dice">0</div>
-      <div id="dice5" class="dice">0</div>
+      <button id="dice1" class="dice">0</button>
+      <button id="dice2" class="dice">0</button>
+      <button id="dice3" class="dice">0</button>
+      <button id="dice4" class="dice">0</button>
+      <button id="dice5" class="dice">0</button>
     </div>
-    <button id="btn" onclick="clicks(); roll();">ROLL DICE</button>
-
+    <button id="btn" onclick="clicks(); roll(); ">ROLL DICE</button>
     <div class="score-container">
       <h2>Huidige Score</h2>
-      <h2 id="total"></h2>
-
-      <h2 id="yahtzee"></h2>
+      <table>
+        <tr>
+          <td>Scoreboard:</td>
+        </tr>
+        <tr>
+          <td>Ones:<span id="ones">0</span></td>
+        </tr>
+        <tr>
+          <td>Twos:<span id="twos">0</span></td>
+        </tr>
+        <tr>
+          <td>Threes:<span id="threes">0</span></td>
+        </tr>
+        <tr>
+          <td>Fours:<span id="fours">0</span></td>
+        </tr>
+        <tr>
+          <td>Fives:<span id="fives">0</span></td>
+        </tr>
+        <tr>
+          <td>Three of a kind:<span id="Threeofakind">0</span></td>
+        </tr>
+        <tr>
+          <td>Four of a kind:<span id="fourofakind">0</span></td>
+        </tr>
+        <tr>
+          <td>Yahtzee:<span id="yahtzee">0</span></td>
+        </tr>
+      </table>
       <h2 id="counter">Aantal keer gerold:</h2>
-      <p>je hebt <span id="displayCount">0</span> rolls.</p>
+      <p>je hebt <span id="displayCount">3</span> rolls.</p>
     </div>
   </body>
   <footer>

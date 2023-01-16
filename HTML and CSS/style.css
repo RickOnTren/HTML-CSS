@@ -4,41 +4,17 @@
   box-sizing: border-box;
 }
 
-.grid-container {
+.btn {
+  padding: 30px;
+  margin-left: 45%;
+  margin-top: 5%;
+  background-color: blueviolet;
+  border-radius: 50px;
+}
+
+.container {
+  margin-top: 7%;
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
-}
-
-.grid__item {
-  border: 1px solid darkorange;
-  padding: 30px;
-  text-align: center;
-}
-
-.grid__item--1 {
-  background-color: red;
-}
-
-.grid__item--2 {
-  background-color: blue;
-}
-
-.grid__item--3 {
-  background-color: green;
-}
-
-.grid__item--4 {
-  background-color: purple;
-}
-
-.grid__item--5 {
-  background-color: brown;
-}
-
-.grid__item--6 {
-  background-color: antiquewhite;
-}
-
-.grid__item--7 {
-  background-color: yellow;
 }
